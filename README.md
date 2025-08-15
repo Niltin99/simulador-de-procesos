@@ -5,7 +5,7 @@ Este proyecto simula un sistema con **1 CPU** y **1 GB de RAM**, con **cola de e
 
 ---
 
-## 📦 Estructura del repositorio
+##  Estructura del repositorio
 ```
 .
 ├─ simumem_gui.py              # Aplicación principal con GUI
@@ -17,7 +17,7 @@ Este proyecto simula un sistema con **1 CPU** y **1 GB de RAM**, con **cola de e
    └─ capturas/                # Evidencias y screenshots para el informe
 ```
 
-> **Nota:** Si aún no tienes `simumem_gui.py`, cópialo en la raíz del repositorio (arriba).
+
 
 ---
 
@@ -70,22 +70,6 @@ python3 simumem_gui.py
 
 ---
 
-
----
-
-##  Contribución (equipo de 5)
-- Un solo repositorio. Sube archivos **separados**, sin ramas si así lo solicitan.  
-- Propuesta de reparto:
-  - *README + Instalación + Capturas:* **(tú)**
-  - *GUI Tkinter:* Persona 2
-  - *Gestor de Memoria:* Persona 3
-  - *Planificador (Round‑Robin, 1 CPU):* Persona 4
-  - *Gráfica RAM (matplotlib):* Persona 5
-
-Reglas rápidas:
-- Usa **.venv/** local (no subas esa carpeta).  
-- Nombra tus módulos y clases claramente.  
-- Añade un mini **changelog** en los PR o commits.
 
 ---
 
