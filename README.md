@@ -1,4 +1,4 @@
-# 🧠 Simulador de Gestión de Procesos (1 CPU, 1 GB RAM)
+#  Simulador de Gestión de Procesos (1 CPU, 1 GB RAM)
 
 **Estado:** listo para correr · **Lenguaje:** Python · **Interfaz:** Tkinter · **Gráfica:** Matplotlib  
 Este proyecto simula un sistema con **1 CPU** y **1 GB de RAM**, con **cola de espera por memoria**, **liberación automática**, y **gráfica en tiempo real del uso de RAM**.
@@ -21,7 +21,7 @@ Este proyecto simula un sistema con **1 CPU** y **1 GB de RAM**, con **cola de e
 
 ---
 
-## ⚙️ Requisitos
+## Requisitos
 - **Windows 10/11** (recomendado) o Linux/macOS
 - **Python 3.10+** (se probó con 3.12)  
 - Dependencias:
@@ -29,7 +29,7 @@ Este proyecto simula un sistema con **1 CPU** y **1 GB de RAM**, con **cola de e
 
 ---
 
-## 🚀 Instalación rápida
+##  Instalación rápida
 En **PowerShell** (Windows):
 ```powershell
 # (Opcional) Permitir scripts en esta sesión
@@ -58,7 +58,7 @@ python3 simumem_gui.py
 
 ---
 
-## 🧪 Uso básico
+##  Uso básico
 1. Ejecuta la app y verifica la **memoria** (parte superior).  
 2. Crea procesos con **Nombre**, **Memoria (MB)** y **Duración (s)**.  
 3. Si no hay RAM disponible, el proceso queda en **Esperando RAM**.  
@@ -70,18 +70,10 @@ python3 simumem_gui.py
 
 ---
 
-## 📝 Entregables que debes preparar
-- **README.md** (este archivo).  
-- **Capturas** en `docs/capturas/` siguiendo la convención:  
-  `2025-08-11_1_inicio.png`, `2025-08-11_2_procesos.png`, `2025-08-11_3_grafica.png`  
-- **INSTALACION.md** con pasos detallados (incluido).  
-- **Documentación**:
-  - `Manual_Usuario.md`: Guía para un usuario final.
-  - `Manual_Tecnico.md`: Descripción de arquitectura, colas, memoria y planificador.
 
 ---
 
-## 🤝 Contribución (equipo de 5)
+##  Contribución (equipo de 5)
 - Un solo repositorio. Sube archivos **separados**, sin ramas si así lo solicitan.  
 - Propuesta de reparto:
   - *README + Instalación + Capturas:* **(tú)**
@@ -97,17 +89,10 @@ Reglas rápidas:
 
 ---
 
-## 🧯 Solución de problemas
+##  Solución de problemas
 - **No abre la ventana:** verifica versión de Python (`py --version`) y que activaste el entorno.  
 - **ImportError: matplotlib:** instala con `py -m pip install matplotlib`.  
 - **Permisos en PowerShell:** ejecuta `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` antes de activar `.venv`.
 
 ---
 
-## 📝 Licencia
-Proyecto académico. Uso educativo.
-
----
-
-### Créditos
-Equipo del curso · 2025-08-11
